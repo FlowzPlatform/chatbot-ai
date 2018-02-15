@@ -1,0 +1,7 @@
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hello","output":"Hello"}],"timestamp":"2018-01-23T13:06:01.110Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"gm","normalized_input":"gm","matched_gambit":[{"topic":"random","input":"Gm","reply":"Hello, Good Morning Vadodara","output":"Hello, Good Morning Vadodara"}],"timestamp":"2018-01-23T13:06:21.753Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Howdy","output":"Howdy"}],"timestamp":"2018-01-23T13:06:34.052Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hi!","output":"Hi!"}],"timestamp":"2018-01-23T13:06:37.137Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"gm","normalized_input":"gm","matched_gambit":[{"topic":"random","input":"Gm","reply":"Hello, Good Morning Vadodara","output":"Hello, Good Morning Vadodara"}],"timestamp":"2018-01-23T13:06:40.566Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"Ola","output":"Ola"}],"timestamp":"2018-01-23T13:08:47.542Z"}
+{"user_id":"q1uVRUqFtu5x6lqQAAAC","raw_input":"dadasda","normalized_input":"dadasda","matched_gambit":[],"timestamp":"2018-01-23T13:08:50.665Z"}

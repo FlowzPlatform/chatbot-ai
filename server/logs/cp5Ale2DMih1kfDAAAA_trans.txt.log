@@ -1,0 +1,2 @@
+{"user_id":"-cp5Ale2DMih1kfDAAAA","raw_input":"book my appointment at today","normalized_input":"book my appointment at today","matched_gambit":[{"topic":"random","input":"* (Book|Save|reserve) * (appointment) (*)","reply":"Yes, you are book.","output":"Yes, you are book."}],"timestamp":"2018-01-30T09:38:45.249Z"}
+{"user_id":"-cp5Ale2DMih1kfDAAAA","raw_input":"book my appointment at 323fwefsf","normalized_input":"book my appointment at 323fwefsf","matched_gambit":[],"timestamp":"2018-01-30T09:38:54.429Z"}

@@ -1,0 +1,4 @@
+{"user_id":"PdzAIXpxWqZOumTBAAAA","raw_input":"eight","normalized_input":"8","matched_gambit":[{"topic":"random","input":"*1","reply":"I would call it 8","output":"I would call it 8"}],"timestamp":"2018-01-25T08:53:01.544Z"}
+{"user_id":"PdzAIXpxWqZOumTBAAAA","raw_input":"gadhi","normalized_input":"gadhi","matched_gambit":[{"topic":"random","input":"*1","reply":"I would call it gadhi","output":"I would call it gadhi"}],"timestamp":"2018-01-25T08:53:17.194Z"}
+{"user_id":"PdzAIXpxWqZOumTBAAAA","raw_input":"two  thousand","normalized_input":"2000","matched_gambit":[{"topic":"random","input":"*1","reply":"I would call it 2000","output":"I would call it 2000"}],"timestamp":"2018-01-25T08:53:35.538Z"}
+{"user_id":"PdzAIXpxWqZOumTBAAAA","raw_input":"4 pm","normalized_input":"4 p m","matched_gambit":[],"timestamp":"2018-01-25T08:53:42.856Z"}

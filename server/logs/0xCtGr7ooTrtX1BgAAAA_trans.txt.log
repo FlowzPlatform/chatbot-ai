@@ -1,0 +1,2 @@
+{"user_id":"0xCtGr7ooTrtX1BgAAAA","raw_input":"tt","normalized_input":"tt","matched_gambit":[{"topic":"random","input":"Tt","reply":"Hi, good to see you!\nHow are you today?","output":"Hi, good to see you!\nHow are you today?"}],"timestamp":"2018-02-05T06:42:45.689Z"}
+{"user_id":"0xCtGr7ooTrtX1BgAAAA","raw_input":"good","normalized_input":"good","matched_gambit":[{"topic":"random","input":"[my name is] *1","reply":"so nice","output":"so nice"}],"timestamp":"2018-02-05T06:42:53.920Z"}

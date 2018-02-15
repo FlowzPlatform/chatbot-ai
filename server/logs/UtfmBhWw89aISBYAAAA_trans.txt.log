@@ -1,0 +1,9 @@
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"How are you?","output":"How are you?"}],"timestamp":"2018-02-08T10:46:31.345Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"fine","normalized_input":"fine","matched_gambit":[],"timestamp":"2018-02-08T10:46:37.642Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"fa","normalized_input":"fa","matched_gambit":[],"timestamp":"2018-02-08T10:46:41.105Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"ds","normalized_input":"ds","matched_gambit":[],"timestamp":"2018-02-08T10:46:41.492Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"as","normalized_input":"as","matched_gambit":[],"timestamp":"2018-02-08T10:46:41.869Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"asf","normalized_input":"asf","matched_gambit":[],"timestamp":"2018-02-08T10:46:43.360Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Ola","output":"Ola"}],"timestamp":"2018-02-08T10:46:57.165Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"get all events","normalized_input":"get all events","matched_gambit":[],"timestamp":"2018-02-08T10:47:22.018Z"}
+{"user_id":"Utf-mBhWw89aISBYAAAA","raw_input":"get event","normalized_input":"get event","matched_gambit":[],"timestamp":"2018-02-08T10:47:46.412Z"}

@@ -1,0 +1,2 @@
+{"user_id":"NhGvQDV9-sZbuRLnAAAB","raw_input":"the guest-singer's björk   at seven thirty","normalized_input":"the guest-singer's bj rk at seven thirty","matched_gambit":[],"timestamp":"2018-01-25T09:04:58.636Z"}
+{"user_id":"NhGvQDV9-sZbuRLnAAAB","raw_input":"the","normalized_input":"the","matched_gambit":[{"topic":"random","input":"*1","reply":"I would call it the","output":"I would call it the"}],"timestamp":"2018-01-25T09:05:15.853Z"}

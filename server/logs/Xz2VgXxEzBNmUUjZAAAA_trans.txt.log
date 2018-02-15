@@ -1,0 +1,3 @@
+{"user_id":"Xz2VgXxEzBNmUUjZAAAA","raw_input":"my location","normalized_input":"my location","matched_gambit":[],"timestamp":"2018-01-29T05:07:57.256Z"}
+{"user_id":"Xz2VgXxEzBNmUUjZAAAA","raw_input":"send my location address","normalized_input":"send my location address","matched_gambit":[{"topic":"random","input":"* (my) * (location) (*)","reply":"lat long","output":"lat long"}],"timestamp":"2018-01-29T05:08:18.686Z"}
+{"user_id":"Xz2VgXxEzBNmUUjZAAAA","raw_input":"send my location","normalized_input":"send my location","matched_gambit":[],"timestamp":"2018-01-29T05:08:36.216Z"}

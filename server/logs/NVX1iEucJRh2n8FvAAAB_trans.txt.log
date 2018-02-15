@@ -1,0 +1,2 @@
+{"user_id":"NVX1iEucJRh2n8FvAAAB","raw_input":"hello tt","normalized_input":"hello tt","matched_gambit":[{"topic":"random","input":"*~2","reply":"Howdy","output":"Howdy"}],"timestamp":"2018-01-25T05:42:27.609Z"}
+{"user_id":"NVX1iEucJRh2n8FvAAAB","raw_input":"Hello Tt","normalized_input":"Hello Tt","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hi!","output":"Hi!"}],"timestamp":"2018-01-25T05:42:44.865Z"}

@@ -1,0 +1,2 @@
+{"user_id":"jD_-AXbtwH9AVlj2AAAA","raw_input":"my name is demo 1","normalized_input":"my name is demo 1","matched_gambit":[],"timestamp":"2018-02-07T11:05:09.082Z"}
+{"user_id":"jD_-AXbtwH9AVlj2AAAA","raw_input":"once again","normalized_input":"once again","matched_gambit":[{"topic":"random","input":"once again *","reply":"Hello . Nice to see you again!","output":"Hello . Nice to see you again!"}],"timestamp":"2018-02-07T11:05:13.806Z"}

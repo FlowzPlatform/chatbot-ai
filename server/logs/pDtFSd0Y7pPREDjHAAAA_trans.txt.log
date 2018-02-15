@@ -1,0 +1,1 @@
+{"user_id":"pDtFSd0Y7pPREDjHAAAA","raw_input":"book my appointment at today","normalized_input":"book my appointment at today","matched_gambit":[{"topic":"random","input":"* (Book|Save|reserve) * (appointment) *","reply":"You’re lying, you’re not book!","output":"You’re lying, you’re not book!"}],"timestamp":"2018-01-30T09:35:56.234Z"}

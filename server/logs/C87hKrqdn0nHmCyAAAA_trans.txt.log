@@ -1,0 +1,1 @@
+{"user_id":"C87hKrqdn-0nHmCyAAAA","raw_input":"book my appointment at tommorrow","normalized_input":"book my appointment at tomorrow","matched_gambit":[{"topic":"random","input":"* (Book|Save|reserve) * (appointment) (*)","reply":"","output":""}],"timestamp":"2018-01-31T04:53:03.892Z"}

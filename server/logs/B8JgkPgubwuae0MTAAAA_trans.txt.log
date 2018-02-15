@@ -1,0 +1,5 @@
+{"user_id":"B8JgkPgubwuae0MTAAAA","raw_input":"send my current location","normalized_input":"send my current location","matched_gambit":[{"topic":"random","input":"* (my) * (location) *","reply":"location","output":"location"}],"timestamp":"2018-01-29T06:06:43.112Z"}
+{"user_id":"B8JgkPgubwuae0MTAAAA","raw_input":"currentlocation:22.3075776,73.1801248","normalized_input":"currentlocation22 307577673 1801248","matched_gambit":[],"timestamp":"2018-01-29T06:06:44.140Z"}
+{"user_id":"B8JgkPgubwuae0MTAAAA","raw_input":"v","normalized_input":"v","matched_gambit":[],"timestamp":"2018-01-29T06:06:45.716Z"}
+{"user_id":"B8JgkPgubwuae0MTAAAA","raw_input":"send my current location","normalized_input":"send my current location","matched_gambit":[{"topic":"random","input":"* (my) * (location) *","reply":"location","output":"location"}],"timestamp":"2018-01-29T06:06:46.956Z"}
+{"user_id":"B8JgkPgubwuae0MTAAAA","raw_input":"currentlocation:22.3075776,73.1801248","normalized_input":"currentlocation22 307577673 1801248","matched_gambit":[],"timestamp":"2018-01-29T06:06:47.116Z"}

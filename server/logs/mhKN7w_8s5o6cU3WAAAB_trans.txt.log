@@ -1,0 +1,2 @@
+{"user_id":"mhKN7w_8s5o6cU3WAAAB","raw_input":"my name is urvashi","normalized_input":"my name is urvashi","matched_gambit":[{"topic":"random","input":"my name is *1","reply":"Hello urvashi!","output":"Hello urvashi!"}],"timestamp":"2018-02-07T11:01:08.652Z"}
+{"user_id":"mhKN7w_8s5o6cU3WAAAB","raw_input":"once again","normalized_input":"once again","matched_gambit":[{"topic":"random","input":"once again *","reply":"Hello . Nice to see you again!","output":"Hello . Nice to see you again!"}],"timestamp":"2018-02-07T11:01:14.212Z"}

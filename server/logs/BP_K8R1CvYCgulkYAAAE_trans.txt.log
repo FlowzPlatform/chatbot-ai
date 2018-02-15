@@ -1,0 +1,3 @@
+{"user_id":"BP_K8R1CvYCgulkYAAAE","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"Howdy","output":"Howdy"}],"timestamp":"2018-01-30T09:18:22.615Z"}
+{"user_id":"BP_K8R1CvYCgulkYAAAE","raw_input":"book apointment","normalized_input":"book apointment","matched_gambit":[],"timestamp":"2018-01-30T09:28:10.360Z"}
+{"user_id":"BP_K8R1CvYCgulkYAAAE","raw_input":"book appointment","normalized_input":"book appointment","matched_gambit":[],"timestamp":"2018-01-30T09:28:30.438Z"}

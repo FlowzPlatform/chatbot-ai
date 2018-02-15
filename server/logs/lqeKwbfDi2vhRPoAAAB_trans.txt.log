@@ -1,0 +1,11 @@
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"conversation","normalized_input":"conversation","matched_gambit":[{"topic":"random","input":"conversation","reply":"What is your name?","output":"What is your name?"}],"timestamp":"2018-02-01T10:49:20.381Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"ishan","normalized_input":"ishan","matched_gambit":[{"topic":"random","input":"[my name is] *1","reply":"So your first name is ishan?","output":"So your first name is ishan?"}],"timestamp":"2018-02-01T10:49:22.745Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"Huh?","normalized_input":"","matched_gambit":[{"topic":"random","input":"*","reply":"Oh, lets try this again... What is your name?","subset":[{"topic":"random","input":"conversation","reply":"What is your name?","output":"What is your name?"}]}],"timestamp":"2018-02-01T10:49:25.234Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"ishan gandhi","normalized_input":"ishan gandhi","matched_gambit":[],"timestamp":"2018-02-01T11:44:43.424Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:20:25.902Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:20:27.302Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"ad","normalized_input":"ad","matched_gambit":[],"timestamp":"2018-02-01T12:20:28.175Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","matched_gambit":[]}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"ad","normalized_input":"ad","matched_gambit":[],"timestamp":"2018-02-01T12:20:29.419Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:20:33.509Z"}
+{"user_id":"lqeKwbfD-i2vhRPoAAAB","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:20:39.326Z"}

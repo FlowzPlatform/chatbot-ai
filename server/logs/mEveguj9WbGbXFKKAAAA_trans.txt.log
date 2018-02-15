@@ -1,0 +1,1 @@
+{"user_id":"mEveguj9WbGbXFKKAAAA","raw_input":"send my location","normalized_input":"send my location","matched_gambit":[{"topic":"random","input":"* (my) * (location) *","reply":"getMapLocation()","output":"getMapLocation()"}],"timestamp":"2018-01-29T05:21:00.406Z"}

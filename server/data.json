@@ -1,0 +1,444 @@
+{
+    "topics": {
+        "random": {
+            "name": "random",
+            "flags": {
+                "keep": "keep"
+            },
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "FWHYtodF",
+                "uPxcvktR",
+                "4v6uXi7c",
+                "zEP2C4TY",
+                "nCo4M7Vg",
+                "pfMcEdkR",
+                "bew7NJy3",
+                "d6rLfQvd",
+                "XsYNr1v0",
+                "nrrSjvZh",
+                "aCwILDqH",
+                "spnSZ6ip",
+                "8C7AD9v4",
+                "VsAaOMB3",
+                "6WUmgCFN",
+                "OTX8sj5P",
+                "3TUbv7m9",
+                "PtePEPoD"
+            ]
+        }
+    },
+    "gambits": {
+        "FWHYtodF": {
+            "trigger": {
+                "flags": {},
+                "filter": "^hasTag('hello')",
+                "question": false,
+                "raw": "*~2",
+                "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
+            },
+            "replies": [
+                "DvtPXZJe",
+                "dtR25ypc",
+                "PjcY0XAQ",
+                "WewKUe0e",
+                "9H4KKhfO",
+                "Y9psVMZf"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "uPxcvktR": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "Hi",
+                "clean": "Hi"
+            },
+            "replies": [
+                "KgzQ3uTt"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "4v6uXi7c": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "Gm",
+                "clean": "Gm"
+            },
+            "replies": [
+                "EvHZNVoV"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "zEP2C4TY": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "OB",
+                "clean": "OB"
+            },
+            "replies": [
+                "thUREiLx"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "nCo4M7Vg": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "conversation",
+                "clean": "conversation"
+            },
+            "replies": [
+                "nHMJ4Bep"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "pfMcEdkR": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "[my name is] *1",
+                "clean": "(?:(?:\\s|\\b)+(?:my name is)(?:\\s|\\b)+|(?:\\s|\\b)+)\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "bhPSALvJ"
+            ],
+            "conditional": null,
+            "conversation": [
+                "nHMJ4Bep"
+            ],
+            "topic": "random"
+        },
+        "bew7NJy3": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "~yes",
+                "clean": "~yes"
+            },
+            "replies": [
+                "jFMhSEA7"
+            ],
+            "conditional": null,
+            "conversation": [
+                "bhPSALvJ"
+            ],
+            "topic": "random"
+        },
+        "d6rLfQvd": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "*",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "DEDX3SPU"
+            ],
+            "conditional": null,
+            "conversation": [
+                "bhPSALvJ"
+            ],
+            "topic": "random"
+        },
+        "XsYNr1v0": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "what is my name",
+                "clean": "what is my name"
+            },
+            "replies": [
+                "BwhkYKq2"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "nrrSjvZh": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "Tt",
+                "clean": "Tt"
+            },
+            "replies": [
+                "1BrK927V"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "aCwILDqH": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "[my name is] *1",
+                "clean": "(?:(?:\\s|\\b)+(?:my name is)(?:\\s|\\b)+|(?:\\s|\\b)+)\\s*((?:[^\\s]+\\s+){0,0}(?:[^\\s]+))\\s*"
+            },
+            "replies": [
+                "kZyqHT4i"
+            ],
+            "conditional": null,
+            "conversation": [
+                "1BrK927V"
+            ],
+            "topic": "random"
+        },
+        "spnSZ6ip": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "add",
+                "clean": "add"
+            },
+            "replies": [
+                "HLUJmN3I",
+                "2i7dNrYF"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "8C7AD9v4": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* (Book|Save|reserve|schedule) * (appointment|meeting|event) (*)",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(Book|Save|reserve|schedule)(?=\\s|$)\\s*(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(appointment|meeting|event)(?=\\s|$)\\s*(?=^|\\s)\\s*(.*)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "dwKvrDWo"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "VsAaOMB3": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* [Get|Show|List] * [Upcoming] * (appointment|meeting|event) (*)",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?:(?:\\s|\\b)+(?:Get|Show|List)(?:\\s|\\b)+|(?:\\s|\\b)+)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?:(?:\\s|\\b)+(?:Upcoming)(?:\\s|\\b)+|(?:\\s|\\b)+)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(appointment|meeting|event)(?=\\s|$)\\s*(?=^|\\s)\\s*(.*)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "4iNlTjpS"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "6WUmgCFN": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* [Get|Show|List] * [Upcoming] * (appointment|meeting|event) *",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?:(?:\\s|\\b)+(?:Get|Show|List)(?:\\s|\\b)+|(?:\\s|\\b)+)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?:(?:\\s|\\b)+(?:Upcoming)(?:\\s|\\b)+|(?:\\s|\\b)+)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(appointment|meeting|event)(?=\\s|$)\\s*(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "U1zRbiIL"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "OTX8sj5P": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* (Delete|Remove|Cancel) * (appointment|meeting|event) (*)",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(Delete|Remove|Cancel)(?=\\s|$)\\s*(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(?=^|\\s)\\s*(appointment|meeting|event)(?=\\s|$)\\s*(?=^|\\s)\\s*(.*)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "bKobr7dl"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "3TUbv7m9": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* (my) * (location) *",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(my)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?(location)(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "hjU1zytW"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "PtePEPoD": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "(*)",
+                "clean": "(?=^|\\s)\\s*(.*)(?=\\s|$)\\s*"
+            },
+            "replies": [
+                "CxHbdPHK"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        }
+    },
+    "replies": {
+        "DvtPXZJe": {
+            "string": "Hi!",
+            "filter": null,
+            "keep": false
+        },
+        "dtR25ypc": {
+            "string": "Hi, how are you?",
+            "filter": null,
+            "keep": false
+        },
+        "PjcY0XAQ": {
+            "string": "How are you?",
+            "filter": null,
+            "keep": false
+        },
+        "WewKUe0e": {
+            "string": "Hello",
+            "filter": null,
+            "keep": false
+        },
+        "9H4KKhfO": {
+            "string": "Howdy",
+            "filter": null,
+            "keep": false
+        },
+        "Y9psVMZf": {
+            "string": "Ola",
+            "filter": null,
+            "keep": false
+        },
+        "KgzQ3uTt": {
+            "string": "Hi from your bot.",
+            "filter": null,
+            "keep": false
+        },
+        "EvHZNVoV": {
+            "string": "Hello, Good Morning Vadodara",
+            "filter": null,
+            "keep": false
+        },
+        "thUREiLx": {
+            "string": "Office Beacon Pvt Ltd",
+            "filter": null,
+            "keep": false
+        },
+        "nHMJ4Bep": {
+            "string": "What is your name?",
+            "filter": null,
+            "keep": false
+        },
+        "bhPSALvJ": {
+            "string": "So your first name is <cap1>?",
+            "filter": null,
+            "keep": false
+        },
+        "jFMhSEA7": {
+            "string": "Okay good.",
+            "filter": null,
+            "keep": false
+        },
+        "DEDX3SPU": {
+            "string": "Oh, lets try this again... {@conversation}",
+            "filter": null,
+            "keep": false
+        },
+        "BwhkYKq2": {
+            "string": "You just said it was <p1cap1>",
+            "filter": null,
+            "keep": false
+        },
+        "1BrK927V": {
+            "string": "Hi, good to see you!\\nHow are you today?",
+            "filter": null,
+            "keep": false
+        },
+        "kZyqHT4i": {
+            "string": "so nice",
+            "filter": null,
+            "keep": false
+        },
+        "HLUJmN3I": {
+            "string": "^addMessageProp(\"action\",\"\") Sure!",
+            "filter": null,
+            "keep": "keep"
+        },
+        "2i7dNrYF": {
+            "string": "u already ask",
+            "filter": null,
+            "keep": false
+        },
+        "dwKvrDWo": {
+            "string": "^getConversation(<cap3>)",
+            "filter": null,
+            "keep": false
+        },
+        "4iNlTjpS": {
+            "string": "^getListAppointment(<cap2>)",
+            "filter": null,
+            "keep": false
+        },
+        "U1zRbiIL": {
+            "string": "^getListAppointment(\"today\")",
+            "filter": null,
+            "keep": false
+        },
+        "bKobr7dl": {
+            "string": "^getDeleteAppointment(<cap3>)",
+            "filter": null,
+            "keep": false
+        },
+        "hjU1zytW": {
+            "string": "^getMapLocation()",
+            "filter": null,
+            "keep": false
+        },
+        "CxHbdPHK": {
+            "string": "^getDbPediaSearch(<cap1>)",
+            "filter": null,
+            "keep": false
+        }
+    },
+    "checksums": {
+        "./chat/main.ss": "ce73a258fe9f3aaddb757ecdb6ec74abf0f3cf28"
+    },
+    "version": 1
+}

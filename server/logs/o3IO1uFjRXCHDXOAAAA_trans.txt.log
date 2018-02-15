@@ -1,0 +1,1 @@
+{"user_id":"o3IO1-uFjRXCHDXOAAAA","raw_input":"get all upcoming event from 1 feb 2018","normalized_input":"get all upcoming event from 1 February 2018","matched_gambit":[{"topic":"random","input":"* [Get|Show|List] * [Upcoming] * (appointment|meeting|event) (*)","reply":"No date found","output":"No date found"}],"timestamp":"2018-02-08T11:47:16.719Z"}
