@@ -7,7 +7,7 @@ var instance = axios.create({
     headers: {'Accept':'application/json'}
   });
 
-exports.getConversation = function(text,cb) {   
+exports.getConversation = function(text,cb) {
     let date=chrono.parseDate(text) 
     console.log("parsed to string:--",date)
     // console.log("parsed to string:--",date.toString())
@@ -18,9 +18,9 @@ exports.getConversation = function(text,cb) {
         cb(null, "No date found" );
         // cb(null, "I would call it " + parsed.out('text'));
 
-  };
+}
 
-  exports.getListAppointment = function(text,cb) {  
+exports.getListAppointment = function(text,cb) {
     console.log("parsed to text:--",text)
     
     // if(!text || text.length===0)
@@ -41,9 +41,9 @@ exports.getConversation = function(text,cb) {
         cb(null, "No date found" );
         // cb(null, "I would call it " + parsed.out('text'));
     }
-  };    
+};    
   
-  exports.getDeleteAppointment = function(text,cb) {
+exports.getDeleteAppointment = function(text,cb) {
     
     let date=chrono.parseDate(text) 
     console.log("parsed to string:--",date)
@@ -55,8 +55,10 @@ exports.getConversation = function(text,cb) {
     }else
         cb(null, "No date found" );
         // cb(null, "I would call it " + parsed.out('text'));
-  }; 
-exports.isDateAvailable=function(value,cb) {
+};
+  
+  
+exports.isDateAvailable=function(value,cb) {    
     console.log("Value:--",value)
     let date=chrono.parseDate(value) 
     console.log("Date:--",date)
@@ -93,30 +95,29 @@ exports.getMapLocation=function (cb) {
     cb(null,d.toString())
 }
 
-exports.getDbPediaSearch=function (text,cb) {
-    console.log(this.message);
+exports.getDbPediaSearch=function (text,cb) {   
     
     axios.get('http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryClass=&QueryString='+text)
-  .then(function (response) {
+        .then(function (response) {
 
-    let result=response.data;
-    if(result){
-        let resultArray=result.results;
+            let result=response.data;
+            if(result){
+                let resultArray=result.results;
 
-        if(resultArray.length>0)
-        {
-            let dataObj=resultArray[0]
-            cb(null,dataObj.label+" ---> "+dataObj.description)    
-        }else{
-            cb(null,"Let's talk about another topic.")    
-        }
-    }else{
-        cb(null,"Let's talk about another topic.")   
-    }
+                if(resultArray.length>0)
+                {
+                    let dataObj=resultArray[0]
+                    cb(null,dataObj.label+" ---> "+dataObj.description)    
+                }else{
+                    cb(null,"Let's talk about another topic.")    
+                }
+            }else{
+                cb(null,"Let's talk about another topic.")   
+            }
 
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
     
 }
