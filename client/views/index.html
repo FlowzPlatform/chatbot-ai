@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Color Demo</title>
+  <title>Chatbot-ai</title>
   <style>
     * {
       margin: 0px;
@@ -69,6 +69,7 @@
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <!-- <script src="coloranim.js"></script> -->
 
   <!-- <link rel="stylesheet" media="screen" type="text/css" href="/colorpicker/css/colorpicker.css" /> -->
@@ -185,6 +186,7 @@
     socket.on('chat message', function (msgObj) {
       console.log("Received-->", msgObj)
       synthVoice(msgObj.text.replace("<<", ""));
+      // translateMessage(msgObj.text);
       $('#messages').append($('<li>').text(msgObj.text));
         $('#messages').animate({scrollTop: $('#messages').prop("scrollHeight")}, 500); 
       let msg = msgObj.text
@@ -221,6 +223,26 @@
       // }
     });
 
+    // Translate message to other language
+    function translateMessage(inputVal){
+      console.log('Input', inputVal)
+      axios.post('https://api.cenacle.io/phtrans/toGujarati/json', {
+          input: inputVal,
+        },{
+          headers: {
+              'X-Api-Key': 's8Jjpu6OxJxjy4TI3uwV7M1y4Y2Lpkkd0LUPnNeR',
+              'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*',
+          }
+        })
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log("Error:", error);
+        });
+    }
+
     function synthVoice(text) {
       const synth = window.speechSynthesis;
       const utterance = new SpeechSynthesisUtterance();
@@ -228,6 +250,7 @@
       console.log("Utterance", utterance);
       synth.speak(utterance);
     }
+    
     function convert(str) {
       var date = new Date(str),
         mnth = ("0" + (date.getMonth() + 1)).slice(-2),

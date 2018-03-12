@@ -1,0 +1,2 @@
+{"user_id":"UADbxvF4LJ_hnz-TAAAE","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"How are you?","output":"How are you?"}],"timestamp":"2018-03-12T06:17:20.599Z"}
+{"user_id":"UADbxvF4LJ_hnz-TAAAE","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hello","output":"Hello"}],"timestamp":"2018-03-12T06:17:45.042Z"}
