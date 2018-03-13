@@ -1,4 +1,3 @@
-var nlp = require('compromise')
 var chrono = require('chrono-node')
 var axios = require('axios')
 
@@ -93,6 +92,32 @@ exports.getMapLocation=function (cb) {
     </html>`
 
     cb(null,d.toString())
+}
+
+exports.getDbPediaSearch=function (text,cb) {   
+    
+    axios.get('http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryClass=&QueryString='+text)
+        .then(function (response) {
+
+            let result=response.data;
+            if(result){
+                let resultArray=result.results;
+
+                if(resultArray.length>0)
+                {
+                    let dataObj=resultArray[0]
+                    cb(null,dataObj.label+" ---> "+dataObj.description)    
+                }else{
+                    cb(null,"Let's talk about another topic.")    
+                }
+            }else{
+                cb(null,"Let's talk about another topic.")   
+            }
+
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 }
 
 exports.getDbPediaSearch=function (text,cb) {   

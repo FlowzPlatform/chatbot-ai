@@ -186,7 +186,7 @@
     socket.on('chat message', function (msgObj) {
       console.log("Received-->", msgObj)
       synthVoice(msgObj.text.replace("<<", ""));
-      // translateMessage(msgObj.text);
+      translateMessage(msgObj.text);
       $('#messages').append($('<li>').text(msgObj.text));
         $('#messages').animate({scrollTop: $('#messages').prop("scrollHeight")}, 500); 
       let msg = msgObj.text
