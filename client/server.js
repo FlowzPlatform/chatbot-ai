@@ -10,6 +10,6 @@ io.on('connection', function(socket){
   console.log('a user connected');
 });
 
-http.listen(5000, function(){
-  console.log('listening on *:5000');
+http.listen(5001, function(){
+  console.log('listening on *:5001');
 });

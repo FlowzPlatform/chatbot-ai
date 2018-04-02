@@ -37,7 +37,7 @@
         % * How are you today
         - so nice
 + add
-    -{keep} ^addMessageProp("action","") Sure!
+    -{keep} ^addMessageProp("actionDone","") Sure!
     - u already ask
 
 + * (Book|Save|reserve|schedule) * (appointment|meeting|event) (*)
