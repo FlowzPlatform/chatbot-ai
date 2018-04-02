@@ -1,0 +1,3 @@
+{"user_id":"1TbnGrA3BaL7NP7lAAAA","raw_input":"gandhi","normalized_input":"gandhi","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:32:49.435Z"}
+{"user_id":"1TbnGrA3BaL7NP7lAAAA","raw_input":"ahmedabad","normalized_input":"ahmedabad","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:33:39.496Z"}
+{"user_id":"1TbnGrA3BaL7NP7lAAAA","raw_input":"vadodara","normalized_input":"vadodara","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:34:00.531Z"}

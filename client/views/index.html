@@ -184,7 +184,7 @@
     });
     var self = this;
     socket.on('chat message', function (msgObj) {
-      console.log("Received-->", msgObj)
+      console.log("Received-- Socket>", msgObj)
       synthVoice(msgObj.text.replace("<<", ""));
       translateMessage(msgObj.text);
       $('#messages').append($('<li>').text(msgObj.text));
@@ -206,6 +206,15 @@
           // deleteEvents(date)
         } else if (type === 'upcoming_get') {
           listUpcomingEvents(date)
+          // deleteEvents(date)
+        }else if (type === 'dbpedia') {
+          let searchData=msgObj.search;
+          for(var i in searchData){
+              var key = i;
+              var val = searchData[i];
+              $('#messages').append($('<li>').text("^^ "+ capitalizeFirstLetter(val.key)+" ---> " +val.value));
+          }
+         
           // deleteEvents(date)
         }
 
@@ -242,6 +251,10 @@
           console.log("Error:", error);
         });
     }
+
+    function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
     function synthVoice(text) {
       const synth = window.speechSynthesis;
