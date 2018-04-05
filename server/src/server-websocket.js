@@ -43,10 +43,7 @@ var botHandle = function(err, bot) {
         // else
         let msg= { text: "<< " + resObj.string, type: resObj.action, date: resObj.date }
           for (var key in resObj) {
-
-              // console.log("---------key>",key);
-              // console.log('-------value>',resObj[key]);
-              if(key!=='text' && key!=='action' && key!=='date')
+            if(key!=='text' && key!=='action' && key!=='date')
                 msg[key]=resObj[key]
           }
           // console.log("msg--------->",msg);

@@ -1,2 +1,0 @@
-{"user_id":"qMFYiWHzJsloLs4sAAAB","raw_input":"hello","normalized_input":"hello","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hi, how are you?","output":"Hi, how are you?"}],"timestamp":"2018-03-12T09:42:02.815Z"}
-{"user_id":"qMFYiWHzJsloLs4sAAAB","raw_input":"Effile tower","normalized_input":"Effile tower","matched_gambit":[{"topic":"random","input":"(*)","reply":"Let's talk about another topic.","output":"Let's talk about another topic."}],"timestamp":"2018-03-12T09:47:00.135Z"}

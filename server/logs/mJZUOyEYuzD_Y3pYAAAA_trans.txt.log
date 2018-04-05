@@ -1,2 +1,0 @@
-{"user_id":"mJZUOyEYuzD_Y3pYAAAA","raw_input":"send my current location","normalized_input":"send my current location","matched_gambit":[{"topic":"random","input":"* (my) * (location) *","reply":"location","output":"location"}],"timestamp":"2018-01-29T06:09:53.830Z"}
-{"user_id":"mJZUOyEYuzD_Y3pYAAAA","raw_input":"currentlocation: 22.3079716,73.1801128","normalized_input":"currentlocation 22 307971673 1801128","matched_gambit":[],"timestamp":"2018-01-29T06:09:54.827Z"}

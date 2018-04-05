@@ -1,4 +1,0 @@
-{"user_id":"z6S2cj8Zb065cOxMAAAA","raw_input":"Book my appointment tommorow","normalized_input":"Book my appointment tomorrow","matched_gambit":[],"timestamp":"2018-01-25T11:50:11.428Z"}
-{"user_id":"z6S2cj8Zb065cOxMAAAA","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Ola","output":"Ola"}],"timestamp":"2018-01-25T12:18:37.570Z"}
-{"user_id":"z6S2cj8Zb065cOxMAAAA","raw_input":"Book my appointment tommorow","normalized_input":"Book my appointment tomorrow","matched_gambit":[],"timestamp":"2018-01-25T12:18:52.901Z"}
-{"user_id":"z6S2cj8Zb065cOxMAAAA","raw_input":"Book my appointment tommorow at 4:00 pm","normalized_input":"Book my appointment tomorrow at 4:00 p m","matched_gambit":[],"timestamp":"2018-01-25T12:19:09.335Z"}

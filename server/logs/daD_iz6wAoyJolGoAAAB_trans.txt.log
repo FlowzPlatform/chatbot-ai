@@ -1,3 +1,0 @@
-{"user_id":"daD_iz6wAoyJolGoAAAB","raw_input":"v","normalized_input":"v","matched_gambit":[],"timestamp":"2018-01-29T06:27:44.220Z"}
-{"user_id":"daD_iz6wAoyJolGoAAAB","raw_input":"send my location","normalized_input":"send my location","matched_gambit":[{"topic":"random","input":"* (my) * (location) *","reply":"location","output":"location"}],"timestamp":"2018-01-29T06:27:48.073Z"}
-{"user_id":"daD_iz6wAoyJolGoAAAB","raw_input":"currentlocation: 22.3079032/73.18012399999999","normalized_input":"currentlocation 22 3079032/73 18012399999999","matched_gambit":[],"timestamp":"2018-01-29T06:27:48.421Z"}

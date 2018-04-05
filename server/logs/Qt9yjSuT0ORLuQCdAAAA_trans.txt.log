@@ -1,5 +1,0 @@
-{"user_id":"Qt9yjSuT0ORLuQCdAAAA","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:21:28.915Z"}
-{"user_id":"Qt9yjSuT0ORLuQCdAAAA","raw_input":"add","normalized_input":"add","matched_gambit":[{"topic":"random","input":"add","reply":"Sure!","output":"Sure!"}],"timestamp":"2018-02-01T12:21:32.327Z"}
-{"user_id":"Qt9yjSuT0ORLuQCdAAAA","raw_input":"get all appointment tomorrow","normalized_input":"get all appointment tomorrow","matched_gambit":[],"timestamp":"2018-02-01T12:26:20.973Z"}
-{"user_id":"Qt9yjSuT0ORLuQCdAAAA","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hi!","output":"Hi!"}],"timestamp":"2018-02-01T12:26:33.634Z"}
-{"user_id":"Qt9yjSuT0ORLuQCdAAAA","raw_input":"get all appointment today","normalized_input":"get all appointment today","matched_gambit":[],"timestamp":"2018-02-01T12:26:49.484Z"}

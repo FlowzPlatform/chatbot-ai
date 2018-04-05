@@ -1,2 +1,0 @@
-{"user_id":"Ng5ZCIUXDf1-15J3AAAA","raw_input":"book my appointment at","normalized_input":"book my appointment at","matched_gambit":[{"topic":"random","input":"* (Book|Save|reserve) * (appointment) (*)","reply":"which date you want to book?","output":"which date you want to book?"}],"timestamp":"2018-01-30T11:35:40.499Z"}
-{"user_id":"Ng5ZCIUXDf1-15J3AAAA","raw_input":"5 jan","normalized_input":"5 January","matched_gambit":[],"timestamp":"2018-01-30T11:35:48.625Z"}

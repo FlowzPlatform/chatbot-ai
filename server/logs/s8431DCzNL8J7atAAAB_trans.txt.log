@@ -1,3 +1,0 @@
-{"user_id":"s8431DCzNL8J7at-AAAB","raw_input":"get all upcoming appointment today","normalized_input":"get all upcoming appointment today","matched_gambit":[],"timestamp":"2018-02-01T05:25:49.281Z"}
-{"user_id":"s8431DCzNL8J7at-AAAB","raw_input":"get app appointment of today","normalized_input":"get app appointment of today","matched_gambit":[],"timestamp":"2018-02-01T05:26:16.019Z"}
-{"user_id":"s8431DCzNL8J7at-AAAB","raw_input":"Tt","normalized_input":"Tt","matched_gambit":[{"topic":"random","input":"Tt","reply":"Hi, good to see you!\nHow are you today?","output":"Hi, good to see you!\nHow are you today?"}],"timestamp":"2018-02-01T05:26:25.611Z"}

@@ -1,5 +1,0 @@
-{"user_id":"o2lCMHyOUTtukZkMAAAB","raw_input":"rahul gandhi","normalized_input":"rahul gandhi","matched_gambit":[],"timestamp":"2018-03-12T07:08:42.438Z"}
-{"user_id":"o2lCMHyOUTtukZkMAAAB","raw_input":"rahul","normalized_input":"rahul","matched_gambit":[],"timestamp":"2018-03-12T07:08:48.947Z"}
-{"user_id":"o2lCMHyOUTtukZkMAAAB","raw_input":"mahatma gandhi","normalized_input":"mahatma gandhi","matched_gambit":[],"timestamp":"2018-03-12T07:09:14.787Z"}
-{"user_id":"o2lCMHyOUTtukZkMAAAB","raw_input":"gandhi","normalized_input":"gandhi","matched_gambit":[],"timestamp":"2018-03-12T07:09:21.386Z"}
-{"user_id":"o2lCMHyOUTtukZkMAAAB","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Howdy","output":"Howdy"}],"timestamp":"2018-03-12T07:09:31.287Z"}

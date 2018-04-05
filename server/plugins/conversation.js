@@ -12,20 +12,20 @@ exports.getConversation = function(text,cb) {
     // console.log("parsed to string:--",date.toString())
     
     if(date){
-        cb(null, {action:"insert",text:"Your appointment is booked on "+date.toString(),date:date});
-    }else
-        cb(null, "No date found" );
+        cb(null, {action:"insert",text:"Your appointment is booked on "+date.toString(),date:date})
+    }else{
+        cb(null, "No date found" )
+    }
         // cb(null, "I would call it " + parsed.out('text'));
-
 }
 
 exports.getListAppointment = function(text,cb) {
-    console.log("parsed to text:--",text)
+    // console.log("parsed to text:--",text)
     
     // if(!text || text.length===0)
     //     text='Today' 
     let date=chrono.parseDate(text) 
-    console.log("parsed to string:--",date)
+    // console.log("parsed to string:--",date)
     // console.log("parsed to string:--",date.toString())
     
     if(date){
@@ -40,8 +40,8 @@ exports.getListAppointment = function(text,cb) {
         cb(null, "No date found" );
         // cb(null, "I would call it " + parsed.out('text'));
     }
-};    
-  
+}
+
 exports.getDeleteAppointment = function(text,cb) {
     
     let date=chrono.parseDate(text) 
@@ -62,9 +62,9 @@ exports.isDateAvailable=function(value,cb) {
     let date=chrono.parseDate(value) 
     console.log("Date:--",date)
     if(date)
-        cb(null,true)
+    cb(null,true)
         else
-        cb(null,false)
+    cb(null,false)
 }
 
 exports.getMapLocation=function (cb) {
@@ -95,7 +95,7 @@ exports.getMapLocation=function (cb) {
 }
 
 exports.getDbPediaSearch= function (text,cb) {   
-    console.log("Message:--",this.message)
+    console.log("Message:--")
     axios.get('http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryClass=&QueryString='+text)
         .then(function (response) { 
 
@@ -123,33 +123,6 @@ exports.getDbPediaSearch= function (text,cb) {
         });
 }
 
-exports.getDbPediaSearch=function (text,cb) {   
-    
-    axios.get('http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryClass=&QueryString='+text)
-        .then(function (response) {
-
-            let result=response.data;
-            if(result){
-                let resultArray=result.results;
-
-                if(resultArray.length>0)
-                {
-                    let dataObj=resultArray[0]
-                    cb(null,dataObj.label+" ---> "+dataObj.description)    
-                }else{
-                    cb(null,"Let's talk about another topic.")    
-                }
-            }else{
-                cb(null,"Let's talk about another topic.")   
-            }
-
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-    
-}
-
  function callDBPediaAPI(dataObj,cb) {
     console.log("response.data:--> ",dataObj.uri)
 
@@ -169,104 +142,6 @@ exports.getDbPediaSearch=function (text,cb) {
 
     callDBPediaResourcesCategory(BASE_URL,QUERY_PREFIX,dataObj.uri,callDbPediaResoucesType,cb)
 
-    // var QUERY_URL=`PREFIX owl: <http://www.w3.org/2002/07/owl#>
-    //             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    //             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    //             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    //             PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-    //             PREFIX dc: <http://purl.org/dc/elements/1.1/>
-    //             PREFIX : <http://dbpedia.org/resource/>
-    //             PREFIX dbpedia2: <http://dbpedia.org/property/>
-    //             PREFIX dbpedia: <http://dbpedia.org/>
-    //             PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    //             PREFIX onto: <http://dbpedia.org/ontology/>
-    //             select distinct ?property ?label {
-    //                     { <`+dataObj.uri+`> ?property ?o }
-    //                     union
-    //                     { ?s ?property <`+dataObj.uri+`>}
-                    
-    //                     optional { 
-    //                     ?property <http://www.w3.org/2000/01/rdf-schema#label> ?label .
-    //                     filter langMatches(lang(?label), 'en')
-    //                     }
-    //                 }`
-
-    // let mainUrl=BASE_URL+encodeURIComponent(QUERY_URL.replace(/\n+/g,''))+'&output=json';
-    // // console.log("Main Url:--",mainUrl)
-    // axios.get(mainUrl).then(result=>{
-    //     // console.log("Result:--",result)
-    //     // console.log("Result1:--",JSON.stringify(result.data.results.bindings))
-
-    //     if(result.data.results.bindings)
-    //     {
-    //         let arrayTypes=result.data.results.bindings;
-
-
-    //         let dataQuery=`PREFIX owl: <http://www.w3.org/2002/07/owl#>
-    //         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    //         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    //         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    //         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-    //         PREFIX dc: <http://purl.org/dc/elements/1.1/>
-    //         PREFIX : <http://dbpedia.org/resource/>
-    //         PREFIX dbpedia2: <http://dbpedia.org/property/>
-    //         PREFIX dbpedia: <http://dbpedia.org/>
-    //         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-    //         PREFIX onto: <http://dbpedia.org/ontology/>
-    //         PREFIX purl: <http://purl.org/dc/terms/>
-    //         select * where {
-    //         `
-    //             console.log("category length:--",resourcesCategory)
-    //             resourcesCategory.forEach(element => {
-    //                 dataQuery= dataQuery.concat(' ?subject purl:subject <'+element.uri+'> .' )
-    //             });
-
-
-    //             dataQuery=dataQuery.concat(' ?subject onto:abstract ?abstract }')
-                
-    //         // arrayTypes.forEach(element => {
-    //         //     // console.log("element:--",element)
-    //         //     let property=element.property;
-    //         //     let label=element.label;
-
-    //         //     let pValue=property.value;
-    //         //     let lastSegment=pValue.substr(pValue.lastIndexOf('/') + 1);
-    //         //     dataQuery=  dataQuery.concat(' ?subject <'+pValue+'> ?'+lastSegment+ ' .' )
-
-
-    //         // });
-    //         let dataUrl=BASE_URL+encodeURIComponent(dataQuery.replace(/\n+/g,''))+'&output=json';
-
-    //         axios.get(mainUrl).then(result=>{
-    //             console.log("dataUrl:--",dataUrl)
-    //         });
-    //         console.log("Log:-->",dataQuery)
-    //     }
-
-    // })
-
-    // dataObj.uri="http://dbpedia.org/resource/Mahatma_Gandhi"
-    //   axios.get('http://localhost:5000/graphql?query={person{personalinfo(resourcesId:"'+dataObj.uri+'"){alias,spouse,birthDate,birthPlace,name,gender,abstract,deathdate,familyMoreInfo{fatherName,fatherBirthDate,motherName,spouseBirthDate}}}}')
-    // .then(function (response) {
-    //     // console.log("response.data:--> ",JSON.stringify(response.data))
-    //     var json=response.data;
-    
-    //     let personalinfo=json.data.person.personalinfo;
-    //     let resMsg=dataObj.label+" ---> "+dataObj.description +
-    //             " Person Name:-->"+personalinfo.name+
-    //             " Person birthdate:-->"+personalinfo.birthDate+
-    //             " Person spouse:-->"+personalinfo.spouse+
-    //             " Person alias:-->"+personalinfo.alias+
-    //             " Person birthPlace:-->"+personalinfo.birthPlace+
-    //             " Person deathdate:-->"+personalinfo.deathdate+
-    //             " Person gender:-->"+personalinfo.gender
-    //     cb(null,resMsg)    
-       
-
-    // })
-    // .catch(function (error) {
-    //     console.log(error);
-    // });
 }
 
  function callDBPediaResourcesCategory(baseURL,queryPrefix,resourceId,cb,rCb) {
@@ -284,8 +159,6 @@ exports.getDbPediaSearch=function (text,cb) {
     }).catch(error=>{
         console.log("Category Error:  --",error)
     })
-
-
 }
 
 function callDbPediaResoucesType(baseURL,queryPrefix,resourceId,categories,cb,rCb) {
@@ -312,6 +185,7 @@ function callDbPediaResoucesType(baseURL,queryPrefix,resourceId,categories,cb,rC
 }
 
 function callDbPediaSnorql(baseURL,queryPrefix,resourceId,categories,arrayTypes,rCb) {
+    console.log("--:callDbPediaSnorql:--")
     let dataQuery=`select * where { `
 
     categories.forEach(element => {
@@ -324,54 +198,22 @@ function callDbPediaSnorql(baseURL,queryPrefix,resourceId,categories,arrayTypes,
    var resultObj={}
     arrayTypes.forEach(element => {
         
-        // console.log("element:--",element)
+        console.log("element:--",element)
         let property=element.property;
         let label=element.label;
         if(label){
         let pValue=property.value;
         let lastSegment=pValue.substr(pValue.lastIndexOf('/') + 1);
-       let  hasQuery=  dataQuery.concat(' ?subject <'+pValue+'> ?'+lastSegment)
+        let  hasQuery=  dataQuery.concat(' ?subject <'+pValue+'> ?'+lastSegment)
             if(lastSegment==='abstract')
                 hasQuery=  hasQuery.concat(" filter langMatches(lang(?abstract), 'en')")
-                hasQuery=  hasQuery.concat(" }")
+            hasQuery=  hasQuery.concat(" }")
        //+ ' filter langMatches(lang(?label), \'en\') }' )
     //    hasQuery=hasQuery.concat(' filter(langMatches(lang(?'+lastSegment+'),"en"))} ')
 
         let mainUrl=baseURL + encodeURIComponent( (queryPrefix + hasQuery).replace(/\n+/g,''))+'&output=json';
        
-        // let promise = new Promise(function(resolve, reject) {
-        //     poll(() => axios.get(mainUrl).then(validate)
-        //    axios.get(mainUrl).then(result=>{
-        //         let bindings=result.data.results.bindings;
-        //         // console.log("Resilt : "+lastSegment+"-->>",bindings)
-        //         if(bindings.length>0){
-        //         let resultBind=bindings[0];
-        //         let value=resultBind[lastSegment].value
-        //         console.log("Last Rsult:--"+ lastSegment +'--->'+value)
-        //         var data={}
-        //         data[lastSegment]=value;
 
-        //             resolve(data)
-        //         // resultArray[lastSegment]=value
-        //         }
-        //         // rCb(null,{text:resultAbstact});
-        //     }).catch(error=>{
-        //         console.log("Error:-- ",error.message)
-        //         // rCb(null,"error");
-        //         var data={}
-        //         data[lastSegment]='';
-        //             resolve({'key':'value'})
-        //     })
-        //   })
-        //   .then(response=>{
-        //       console.log("Resolve then:--",response)
-        //     // resolve(response)
-        //   }).catch(error=>{
-        //     console.log("Resolve error:--",error)
-        //         console.log("Error:-- ",error.message)
-        //         // rCb(null,"error");
-        //         // resolve(error)
-        //     })
           primisesArray.push(axios.get(mainUrl).then(response=>{
             response.data.results.label=label.value
             response.data.results.property=lastSegment
@@ -382,11 +224,9 @@ function callDbPediaSnorql(baseURL,queryPrefix,resourceId,categories,arrayTypes,
     })
 
    
-
+// 
         let req=primisesArray.slice(0, 30)
         // console.log("<---Primise:--->",req.length)
-        for (let index = 0; index < 2; index++) {
-            
         axios.all(req).then(values=>
             {
                 // console.log("values--------->",values[0].data)
@@ -415,81 +255,7 @@ function callDbPediaSnorql(baseURL,queryPrefix,resourceId,categories,arrayTypes,
                 
             }).catch(error=>{
                 console.log("resultArray error--------->",error.message);
-            })   
-        }
-   
-    
-    // var promise1 = Promise.resolve(3);
-    // var promise2 =  new Promise(function(resolve, reject) {
-    //  console.log("Promises2")
-    //   setTimeout(resolve,1000, 'foo1');
-    // });
-    // var promise3 = new Promise(function(resolve, reject) {
-    //  console.log("Promises3")
-    //   setTimeout(resolve,5000,'');
-    // });
-    // console.log("promise2--------->",primisesArray);
-    let array=[promise1,promise2,promise3]
-    // Promise.all(primisesArray).then(function(values) {
-    //   console.log('values:--->',values);
-    
-    // //   values.forEach(element => {
-    // //       for (var key in element) {
-
-    // //           // console.log("--------->",key);
-    // //           // console.log(element[key]);
-    // //           resultObj[key]=element[key]
-    // //       }
-    // //   });
-
-    // //   resultArray=resultObj
-    // //   console.log("resultArray--------->",resultArray);
-      
-    // //   rCb(null,resultArray);
-    
-    // }).catch(error=>{
-    //     console.log("error--------->",error);
-    // });
-
-//     var promise1 = Promise.resolve(3);
-// var promise2 =  new Promise(function(resolve, reject) {
-//  console.log("Promises2")
-//   setTimeout(resolve,1000, 'foo1');
-// });
-// var promise3 = new Promise(function(resolve, reject) {
-//  console.log("Promises3")
-//   setTimeout(resolve,5000,'');
-// });
-// console.log("promise2--------->",promise2);
-// let array=[promise1,promise2,promise3]
-// Promise.all(array).then(function(values) {
-//   console.log("Test data:---- ",values);
-// });
-
-   
-    // dataQuery=dataQuery.concat('?subject onto:abstract ?abstract filter(langMatches(lang(?abstract),"en"))} ')
-
-    // let mainUrl=baseURL + encodeURIComponent( (queryPrefix + dataQuery).replace(/\n+/g,''))+'&output=json';
-
-
-
-    // axios.get(mainUrl).then(result=>{
-    //         let bindings=result.data.results.bindings;
-    //         // console.log("Resilt : -->>",bindings)
-    //         let resultAbstact=bindings[0].abstract.value
-    //         rCb(null,{text:resultAbstact});
-    // }).catch(error=>{
-    //     console.log("Error:-- ",error)
-    //     rCb(null,"error");
-    // })
-    
-}
-
-function poll(fn){
-    return Promise.resolve()
-        .then( fn=>{
-            console.log("Resolved",fn)
-        } )
+            })       
 }
 
 

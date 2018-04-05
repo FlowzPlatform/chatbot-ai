@@ -1,4 +1,0 @@
-{"user_id":"MZl4fSGrA-6319Q6AAAA","raw_input":"india","normalized_input":"india","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:22:49.895Z"}
-{"user_id":"MZl4fSGrA-6319Q6AAAA","raw_input":"rahul gandhi","normalized_input":"rahul gandhi","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:26:27.118Z"}
-{"user_id":"MZl4fSGrA-6319Q6AAAA","raw_input":"mahatma gandhi","normalized_input":"mahatma gandhi","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:28:37.302Z"}
-{"user_id":"MZl4fSGrA-6319Q6AAAA","raw_input":"gandhi","normalized_input":"gandhi","matched_gambit":[{"topic":"random","input":"(*)","reply":"hello","output":"hello"}],"timestamp":"2018-03-29T11:29:13.610Z"}

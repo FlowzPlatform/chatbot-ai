@@ -1,2 +1,0 @@
-{"user_id":"UG--na2AfD2-WajsAAAA","raw_input":"Save my appointment at 4","normalized_input":"Save my appointment at 4","matched_gambit":[{"topic":"random","input":"(Book|Save) my appointment at *1","reply":"I would call it 4","output":"I would call it 4"}],"timestamp":"2018-01-25T10:00:51.980Z"}
-{"user_id":"UG--na2AfD2-WajsAAAA","raw_input":"Save my appointment at 4:00 pm","normalized_input":"Save my appointment at 4:00 p m","matched_gambit":[],"timestamp":"2018-01-25T10:01:21.721Z"}

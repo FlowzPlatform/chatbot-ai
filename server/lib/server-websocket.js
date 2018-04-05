@@ -51,9 +51,6 @@ var botHandle = function botHandle(err, bot) {
         // else
         var msg = { text: "<< " + resObj.string, type: resObj.action, date: resObj.date };
         for (var key in resObj) {
-
-          // console.log("---------key>",key);
-          // console.log('-------value>',resObj[key]);
           if (key !== 'text' && key !== 'action' && key !== 'date') msg[key] = resObj[key];
         }
         // console.log("msg--------->",msg);
@@ -67,6 +64,12 @@ var botHandle = function botHandle(err, bot) {
   });
 };
 
+bot.loadFile('./rivescript.rive ', function () {
+  botHandle(null, bot);
+}, function (error) {
+  console.log("bot error");
+});
+
 // facts.load(data, 'localdata', function(err, facts){
 //   options.factSystem = facts;
 
@@ -76,14 +79,14 @@ var botHandle = function botHandle(err, bot) {
 // });
 
 
-// Main entry point
-var options = {
-  factSystem: {
-    clean: false
-  },
-  importFile: './data.json'
-};
+// // Main entry point
+// const options = {
+//   factSystem: {
+//     clean: false
+//   },
+//   importFile: './data.json',
+// };
 
-_superscript2.default.setup(options, function (err, bot) {
-  botHandle(err, bot);
-});
+// superscript.setup(options, (err, bot) => {
+//   botHandle(err, bot);
+// });
