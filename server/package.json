@@ -5,8 +5,14 @@
   "main": "./index",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
     "chrono-node": "^1.3.5",
     "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "graphql-request": "^1.5.1",
+    "graphql-server-express": "^1.3.2",
+    "graphql-tools": "^2.23.1",
     "socket.io": "^2.0.4",
     "superscript": "^1.0.0"
   },
